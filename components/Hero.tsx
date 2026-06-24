@@ -14,8 +14,11 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-screen flex flex-col justify-center overflow-hidden grain-overlay"
       style={{
-        background:
-          'linear-gradient(135deg, #1a0a2e 0%, #2D1B3D 35%, #3B1F68 65%, #2D1B3D 100%)',
+        backgroundImage:
+          'linear-gradient(135deg, rgba(26,10,46,0.88) 0%, rgba(45,27,61,0.82) 35%, rgba(59,31,104,0.78) 65%, rgba(45,27,61,0.88) 100%), url(/images/tarara-studio.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
       aria-label="Bienvenida a Tarará Studio"
     >
